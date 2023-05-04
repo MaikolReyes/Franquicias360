@@ -1,0 +1,11 @@
+.collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.navbar-nav {
+    gap: 20px;
+    margin-right: 100px;
+}
