@@ -1,0 +1,58 @@
+.textTitle {
+    color: #0F1721;
+    font-style: normal;
+    line-height: 55px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 48px;
+}
+
+.textTitleFranquicias {
+    color: #0F1721;
+    font-style: normal;
+    line-height: 55px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.containerImageFranquicias {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.imageFranquicias {
+    width: 420px;
+    height: 420px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.imageFranquicias:hover {
+    opacity: .4;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.containerImage:hover {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoFranquicia {
+    position: absolute;
+    color: #0C0C0D;
+    margin-left: 125px;
+    margin-top: 125px;
+}
+
+.logoFranquicia:hover {
+    color: black;
+}
