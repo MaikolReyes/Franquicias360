@@ -55,7 +55,7 @@ export const SecondSections = () => {
                     <img className="logoLinkedin" src={linkedin} alt="" />
                     <h2 className="textFranquiciasLinkedin">Franquicias360</h2>
                 </div>
-                <a href="https://www.linkedin.com/company/franquicias360/" target="blank_"><button className="buttonForm"> SIGUENOS EN LINKEDIN</button></a>
+                <a href="https://www.linkedin.com/company/franquicias360/" target="blank_"><button className="botonLinkedin"> SIGUENOS EN LINKEDIN</button></a>
             </div>
 
 
@@ -78,7 +78,7 @@ export const SecondSections = () => {
                     <h3 className="textSectionForm2">¿Trabajamos juntos?</h3>
                 </div>
 
-                <form className="formularioConsultas" onSubmit={sendForm} action="https://formsubmit.co/maikolreyes209@gmail.com" method="POST">
+                <form className="formularioConsultas" onSubmit={sendForm} action="https://formsubmit.co/infofranquicias2023@gmail.com" method="POST">
                     <label htmlFor="nombre" className="textForm">Nombre</label>
                     <input type="text" name="Nombre" required className="labelForm rounded" />
 

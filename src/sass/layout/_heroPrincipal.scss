@@ -76,7 +76,7 @@
     width: 700px;
 }
 
-.botonContactanos {
+.botonContactanosHero {
     background-color: #35EE9A;
     border-color: #35EE9A;
     width: 250px;
@@ -86,8 +86,18 @@
     border-radius: 15px;
 }
 
-.botonContactanos:hover {
+.botonContactanosHero:hover {
     background-color: white;
+}
+
+.botonContactanos {
+    background-color: #35EE9A;
+    border-color: #35EE9A;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 65px;
+    border-radius: 15px;
 }
 
 .containerTextSecondary {

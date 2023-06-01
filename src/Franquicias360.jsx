@@ -29,7 +29,7 @@ export const Principal = () => {
           <h1 className="heroText">Impulsa el alcance de tu Franquicia</h1>
           <img className='cruz2' src={cruz2} alt="" />
           <p className="heroTextSubtitle">Nuestro sitio web es el lugar perfecto para que los franquiciantes muestren su trabajo y generen visibilidad </p>
-          <button className="btn botonContactanos"><a className="fontButtonContacto" href="#contacto">CONTACTANOS</a></button>
+          <button className="btn botonContactanosHero"><a className="fontButtonContacto" href="#contacto">CONTACTANOS</a></button>
         </div>
         <div className="containerCompu">
           <img className="compuBanner" src={compu} alt="" />
@@ -149,7 +149,7 @@ export const Principal = () => {
 
       <section className="imageContenedor">
         <p className="textContactanos">¡Aprovecha esta ventaja especial como franquiciante de Franquicias 360 y eleva tu presencia en el mundo de las franquicias con nosotros!</p>
-        <button className="buttonForm"><a className='fontButtonContacto' href="#contacto">CONTACTANOS</a></button>
+        <button className="botonContactanos"><a className='fontButtonContacto' href="#contacto">CONTACTANOS</a></button>
       </section>
 
     </>

@@ -3,6 +3,15 @@
     height: 70px;
 }
 
+.nav-link {
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+    &:hover {
+        color: white;
+    }
+}
+
 .logo {
     margin-left: 150px;
     width: 186px;
