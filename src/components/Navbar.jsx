@@ -7,7 +7,7 @@ export const Navbar = () => {
                 <img src={logo} alt="" className='logo' />
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="toggler"><i className="bi bi-list"></i></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">

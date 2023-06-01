@@ -40,6 +40,14 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.labelFormTextarea {
+    background-color: #0F1721;
+    border: 2px solid #686868;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .textForm {
     display: flex;
     font-family: 'Lato', sans-serif;
@@ -85,9 +93,35 @@
     height: 63px;
 }
 
+.footer-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
 .footerItem {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
+    line-height: 24px;
     text-decoration: none;
     color: white;
+}
+
+.containerRedes {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 60px;
+}
+
+.textCopyright {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
 }

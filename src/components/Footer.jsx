@@ -9,25 +9,25 @@ export const Footer = () => {
             <div className='imageFooter'>
                 <img className='logoFooter' src={logo} alt="" />
             </div>
-            <div className='d-flex justify-content-center gap-5 text-white mt-5'>
-                <a className='footerItem' href="">Sobre nosotros</a>
-                <a className='footerItem' href="">Servicios</a>
-                <a className='footerItem' href="">Franquicias</a>
-                <a className='footerItem' href="">Contacto</a>
+            <div className='footer-link'>
+                <a className='footerItem' href="#nosotros">Sobre nosotros</a>
+                <a className='footerItem' href="#servicios">Servicios</a>
+                <a className='footerItem' href="#franquicias">Franquicias</a>
+                <a className='footerItem' href="#contacto">Contacto</a>
             </div>
 
-            <div className='d-flex justify-content-center mt-5 gap-5'>
-                <a href="">
-                    <img src={instagram} alt="" />
+            <div className='containerRedes'>
+                <a href="#">
+                    <img className='iconRedes' src={instagram} alt="" />
                 </a>
-                <a href="">
-                    <img src={linkedin} alt="" />
+                <a href="https://www.linkedin.com/company/franquicias360/">
+                    <img className='iconRedes' src={linkedin} alt="" />
                 </a>
-                <a href="">
-                    <img src={twitter} alt="" />
+                <a href="#">
+                    <img className='iconRedes' src={twitter} alt="" />
                 </a>
             </div>
-            <p className='text-white d-flex justify-content-center pt-5 m-0'>Copyright © 2023 Franquicias360, Todos los derechos reservados.</p>
+            <p className='textCopyright'>Copyright © 2023 Franquicias360, Todos los derechos reservados.</p>
         </footer>
     )
 }

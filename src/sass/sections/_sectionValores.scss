@@ -5,10 +5,12 @@
 }
 
 .containerValores {
-    margin-top: 100px;
     display: grid;
+    margin-top: 100px;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    padding-left: 450px;
+    padding-right: 400px;
 }
 
 .itemValores {
@@ -19,10 +21,9 @@
 }
 
 .iconValores {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    margin-right: 90px;
+    width: 120px;
+    height: 120px;
+    margin-right: 40px;
 }
 
 .titleValores {
@@ -39,4 +40,5 @@
     line-height: 27px;
     font-weight: 400;
     width: 20vw;
+    color: #686868;
 }

@@ -9,6 +9,8 @@
 @import "../sass/sections/sectionFranquicias";
 @import "../sass/sections/sectionValores";
 @import "../sass/sections/sectionServicios";
+// Medias Querys
+@import "../sass/base/mediaQuerys";
 
 * {
     box-sizing: border-box;
@@ -33,29 +35,4 @@
 .textResalt2 {
     color: #664998;
     font-weight: 600;
-}
-
-.imageContenedor {
-    background-image: url(../img/ContenedorPromo.png);
-    flex-direction: column;
-    width: 100%;
-    height: 380px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    margin-bottom: 200px;
-    margin-top: 110px;
-
-}
-
-.textContactanos {
-    font-size: 37px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    line-height: 47px;
-    color: white;
-    width: 50vw;
 }
