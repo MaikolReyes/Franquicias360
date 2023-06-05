@@ -95,12 +95,12 @@ export const Principal = () => {
         <h5 className='textImpulsaFranquicia'>En Franquicias 360, ofrecemos una <span className='textResalt2'>amplia gama de servicios de marketing, publicidad y branding</span> para ayudar a los franquiciantes a potenciar su presencia en el mercado y alcanzar sus objetivos comerciales</h5>
       </section>
 
-      <div className="containerServicios mx-0">
+      <div className="containerServicios">
 
         <div className="itemServicios" >
           <img className='iconServicios' src={estrategias} alt="" />
           <div>
-            <h3 className='titleServicios w-75'>Estrategias de Marketing Digital</h3>
+            <h3 className='titleServiciosLarge'>Estrategias de Marketing Digital</h3>
             <p className='textServicios'>Desarrollamos estrategias de marketing digital personalizadas que se adaptan a las necesidades y objetivos de tu franquicia. </p>
             <p className='textServicios'>Desde la optimización de tu web, la gestión de redes sociales, la creación de contenido además de la implementación de campañas de publicidad en línea y mucho más.</p>
           </div>
@@ -109,7 +109,7 @@ export const Principal = () => {
         <div className="itemServicios" >
           <img className='iconServicios' src={publicidad} alt="" />
           <div>
-            <h3 className='titleServicios w-75'>Publicidad en Medios Tradicionales</h3>
+            <h3 className='titleServiciosLarge'>Publicidad en Medios Tradicionales</h3>
             <p className='textServicios'>Diseñamos y ejecutamos estrategias de publicidad en medios tradicionales, como prensa, radio, televisión y vallas publicitarias.</p>
             <p className='textServicios'>Logrando adaptarnos a tu mercado objetivo y directamente apoyar el crecimiento de tu franquicia.</p>
           </div>

@@ -10,7 +10,7 @@
 
 .containerHeroText {
     margin-bottom: 200px;
-    width: 40vw;
+    width: 40%;
 }
 
 .cruz {
@@ -21,7 +21,7 @@
 
 .cruz2 {
     position: absolute;
-    padding-left: 575px;
+    margin-left: 540px;
 }
 
 .cruz3 {
@@ -31,9 +31,9 @@
 
 .imageBackground {
     position: absolute;
-    width: 550px;
-    padding-left: 170px;
-    padding-top: 205px;
+    width: 350px;
+    margin-left: 170px;
+    margin-top: 205px;
 }
 
 .heroText {
@@ -41,7 +41,7 @@
     font-size: 64px;
     line-height: 100px;
     font-family: 'Ubuntu', sans-serif;
-    width: 30vw;
+    width: 40vw;
     font-weight: 700;
     padding-left: 100px;
     position: relative;
@@ -55,7 +55,7 @@
     line-height: 30px;
     color: white;
     margin-top: 60px;
-    width: 33vw;
+    width: 100%;
     padding-left: 100px;
 }
 
@@ -66,14 +66,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.containerCompu {
-    padding-bottom: 250px;
-    padding-right: 100px;
-}
-
 .compuBanner {
     height: 600px;
     width: 700px;
+    margin-bottom: 200px;
 }
 
 .botonContactanosHero {
@@ -88,16 +84,6 @@
 
 .botonContactanosHero:hover {
     background-color: white;
-}
-
-.botonContactanos {
-    background-color: #35EE9A;
-    border-color: #35EE9A;
-    width: 250px;
-    margin-top: 30px;
-    margin-left: 100px;
-    height: 65px;
-    border-radius: 15px;
 }
 
 .containerTextSecondary {
@@ -115,8 +101,8 @@
     font-size: 36px;
     font-weight: 400;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 100px;
-    width: 45vw;
+    width: 70%;
     color: #686868;
 }

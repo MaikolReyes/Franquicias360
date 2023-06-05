@@ -78,7 +78,7 @@ export const SecondSections = () => {
                     <h3 className="textSectionForm2">¿Trabajamos juntos?</h3>
                 </div>
 
-                <form className="formularioConsultas" onSubmit={sendForm} action="https://formsubmit.co/infofranquicias2023@gmail.com" method="POST">
+                <form className="formularioConsultas" onSubmit={sendForm} action="https://formsubmit.co/sofia@vilkas.com.ar" method="POST">
                     <label htmlFor="nombre" className="textForm">Nombre</label>
                     <input type="text" name="Nombre" required className="labelForm rounded" />
 

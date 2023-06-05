@@ -18,14 +18,14 @@
     }
 
     .containerHeroText {
-        padding-top: 100px;
-        padding-left: 50px;
+        margin-top: 80px;
     }
 
     .heroText {
         font-size: 48px;
-        width: 600px;
+        width: 560px;
         line-height: 55px;
+        padding-left: 50px;
     }
 
     .imageBackground {
@@ -36,30 +36,32 @@
     }
 
     .heroTextSubtitle {
-        width: 770px;
+        padding-left: 50px;
+        width: 600px;
     }
 
-    .containerServicios {
-        gap: 30px;
-    }
-
-    .containerCompu {
-        padding-bottom: 150px;
-        padding-left: 300px;
-        padding-right: 0;
+    .cruz {
+        padding-left: 0;
     }
 
     .cruz2 {
-        padding-left: 500px;
+        margin-left: 380px;
     }
 
     .cruz3 {
         display: none;
     }
 
+    .imageBackground {
+        width: 250px;
+        margin-left: 110px;
+    }
+
     .compuBanner {
-        width: 450px;
-        height: 380px;
+        width: 400px;
+        height: 330px;
+        margin-left: 50px;
+        margin-bottom: 220px;
     }
 
     .textTitle {
@@ -75,8 +77,12 @@
     }
 
     .containerValores {
-        padding-left: 0;
-        padding-right: 100px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .itemValores {
+        margin-top: 0px;
     }
 
     .iconValores {
@@ -90,16 +96,14 @@
 
     .textValores {
         font-size: 16px;
-        width: 350px;
+        width: 320px;
     }
 
     .textImpulsaFranquicia {
-        width: 1080px;
+        width: 90%;
     }
 
-    .containerServicios {
-        padding-left: 220px;
-    }
+
 
     .iconServicios {
         width: 100px;
@@ -111,9 +115,14 @@
         width: 200px;
     }
 
+    .titleServiciosLarge {
+        font-size: 20px;
+        width: 200px;
+    }
+
     .textServicios {
         font-size: 16px;
-        width: 230px;
+        width: 90%;
     }
 
     .imageContenedor {
@@ -129,13 +138,13 @@
     }
 
     .imageFranquicias {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 
     .imageLinkedin {
-        width: 325px;
-        height: 325px;
+        width: 280px;
+        height: 280px;
     }
 
     .textTitleFranquicias {
@@ -150,12 +159,12 @@
     }
 
     .backgroundForm {
-        padding-bottom: 100px;
+        height: 100%;
     }
 
     .textSectionForm1 {
         font-size: 40px;
-        padding-top: 200px;
+        margin-top: 400px;
     }
 
     .textSectionForm2 {
@@ -171,473 +180,4 @@
     }
 
 
-}
-
-@media screen and (max-width: 768px) {
-
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    .navbar {
-        height: 50px;
-    }
-
-    .bi-list {
-        color: white;
-    }
-
-    .toggler {
-        width: 50px;
-        height: 50px;
-    }
-
-    .logo {
-        margin-left: 20px;
-        width: 145px;
-        height: 30px;
-    }
-
-    .heroPrincipal {
-        height: 380px;
-    }
-
-
-    .imageBackground {
-        width: 20vw;
-        margin-top: 220px;
-        margin-left: 135px;
-    }
-
-    .heroText {
-        font-size: 30px;
-        padding-top: 100px;
-        width: 390px;
-        line-height: 40px;
-    }
-
-    .heroTextSubtitle {
-        font-size: 14px;
-        width: 495px;
-        line-height: 25px;
-        margin-top: 30px;
-        padding-left: 80px;
-    }
-
-    .botonContactanosHero {
-        width: 150px;
-        height: 40px;
-        border-radius: 8px;
-        font-size: 12px;
-        margin-top: 0;
-        margin-bottom: 50px;
-    }
-
-    .botonContactanos {
-        width: 150px;
-        height: 40px;
-        border-radius: 8px;
-        font-size: 12px;
-        margin: 0;
-    }
-
-    .containerCompu {
-        width: 300px;
-        height: 300px;
-        margin-right: 350px;
-    }
-
-    .compuBanner {
-        width: 220px;
-        height: 200px;
-    }
-
-    .containerTextSecondary {
-        margin-bottom: 80px;
-    }
-
-    .textSecondary {
-        margin-top: 20px;
-        text-align: center;
-        margin-bottom: 0px;
-    }
-
-    .cruz {
-        width: 60px;
-        padding-top: 130px;
-        padding-right: 300px;
-        display: none;
-    }
-
-    .cruz2 {
-        width: 12px;
-        height: 12px;
-        padding-bottom: 100px;
-        display: none;
-    }
-
-    .cruz3 {
-        width: 12px;
-        height: 12px;
-        display: none;
-    }
-
-    .textSecondary {
-        font-size: 24px;
-        width: 680px;
-    }
-
-    .textTitle {
-        font-size: 36px;
-    }
-
-    .textSubtitle {
-        font-size: 24px;
-    }
-
-    .containervalores {
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-    }
-
-    .iconValores {
-        width: 75px;
-        height: 75px;
-        margin-right: 20px;
-    }
-
-    .titleValores {
-        font-size: 20px;
-    }
-
-    .textValores {
-        font-size: 16px;
-        width: 230px;
-        text-align: start;
-    }
-
-    .textImpulsaFranquicia {
-        font-size: 20px;
-        line-height: 27px;
-        width: 680px;
-    }
-
-    .iconServicios {
-        width: 75px;
-        height: 75px;
-    }
-
-    .containerServicios {
-        grid-template-columns: 1fr 1fr;
-        padding-left: 250px;
-    }
-
-    .titleServicios {
-        font-size: 20px;
-    }
-
-    .textServicios {
-        font-size: 16px;
-        width: 220px;
-    }
-
-    .imageContenedor {
-        margin-top: 120px;
-        margin-bottom: 100px;
-    }
-
-    .textContactanos {
-        font-size: 36px;
-        line-height: 50px;
-        width: 680px;
-    }
-
-    .imageLinkedin {
-        width: 200px;
-        height: 200px;
-    }
-
-    .imageFranquicias {
-        width: 200px;
-        height: 200px;
-    }
-
-
-    .textTitleFranquicias {
-        font-size: 36px;
-    }
-
-    .logoFranquicia {
-        width: 15vw;
-    }
-
-    .sectionLinkedin {
-        margin-top: 50px;
-    }
-
-    .logoLinkedin {
-        width: 50px;
-        height: 50px;
-    }
-
-    .textFranquiciasLinkedin {
-        font-size: 20px;
-    }
-
-    .buttonForm {
-        font-size: 12px;
-        width: 170px;
-        height: 50px;
-    }
-
-    .textSectionForm1 {
-        font-size: 20px;
-        margin-bottom: 0px;
-        padding-top: 100px;
-        line-height: 29px;
-    }
-
-    .textSectionForm2 {
-        font-size: 28px;
-        margin-top: 0px;
-        line-height: 40px;
-    }
-
-    .formularioConsultas {
-        width: 330px;
-    }
-
-    .textForm {
-        font-size: 14px;
-    }
-
-    .labelFormTextarea {
-        height: 90px;
-    }
-
-    .logoFooter {
-        width: 130px;
-        height: 30px;
-    }
-
-    .footerItem {
-        font-size: 14px;
-    }
-
-    .iconRedes {
-        width: 20px;
-        height: 20px;
-    }
-
-    .textCopyright {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .heroPrincipal {
-        height: 600px;
-    }
-
-    .containerHeroText {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .heroText {
-        font-size: 32px;
-        width: 300px;
-        padding-left: 0;
-        padding-bottom: 10px;
-        padding-top: 0;
-    }
-
-    .imageBackground {
-        width: 170px;
-        height: 35px;
-        margin-bottom: 320px;
-        margin-left: 35px;
-    }
-
-    .heroTextSubtitle {
-        font-size: 16px;
-        text-align: center;
-        width: 310px;
-        padding-left: 0;
-        padding-right: 50px;
-        margin-top: 20px;
-    }
-
-    .containerCompu {
-        display: none;
-    }
-
-    .textSecondary {
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    .botonContactanosHero {
-        width: 160px;
-        height: 36px;
-        margin-right: 150px;
-        margin-top: 20px;
-    }
-
-    .textTitle {
-        font-size: 24px;
-        margin-top: 0px;
-        line-height: 30px;
-    }
-
-    .textTitleFranquicias {
-        font-size: 24px;
-        margin-top: 0px;
-    }
-
-    .textSubtitle {
-        font-size: 14px;
-    }
-
-    .containerValores {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 110px;
-        margin-top: 0px;
-    }
-
-    .iconValores {
-        margin: 0;
-        margin-bottom: 20px;
-    }
-
-    .itemValores {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .textValores {
-        width: 320px;
-        text-align: center;
-    }
-
-    .sectionTextServicios {
-        margin-top: 50px;
-    }
-
-    .textImpulsaFranquicia {
-        width: 330px;
-        font-size: 16px;
-    }
-
-    .containerServicios {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-top: 0px;
-        padding: 0;
-        padding-left: 10px;
-    }
-
-    .itemServicios {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .iconServicios {
-        margin: 0;
-        margin-bottom: 10px;
-    }
-
-    .titleServicios {
-        padding: 0;
-        margin-left: 55px;
-    }
-
-    .textServicios {
-        width: 330px;
-        text-align: center;
-    }
-
-
-
-    .textContactanos {
-        width: 330px;
-        font-size: 24px;
-        line-height: 40px;
-    }
-
-    .containerImageFranquicias {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .containerImageLinkedin {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .imageFranquicias {
-        transition: none;
-        -webkit-transition: none;
-    }
-
-    .containerImage:hover {
-        background-color: rgba(170, 0, 0, 0);
-    }
-
-    .logoFranquicia {
-        display: none;
-    }
-
-    .imageLinkedin {
-        width: 200px;
-        height: 200px;
-        margin: 0;
-        margin-bottom: 20px;
-    }
-
-    .botonLinkedin {
-        display: none;
-    }
-
-    .buttonForm {
-        width: 240px;
-        height: 35px;
-        border-radius: 8px;
-        margin-top: 0;
-    }
-
-    .textSectionForm2 {
-        margin-bottom: 20px;
-    }
-
-    .containerRedes {
-        margin-top: 10px;
-    }
-
-    .footer-link {
-        width: 280px;
-
-    }
-
-    .footerItem {
-        font-size: 12px;
-        width: 40px;
-        line-height: 15px;
-    }
 }
