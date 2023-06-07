@@ -1,4 +1,8 @@
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 414px) {
+    .logo {
+        margin: 0;
+    }
+
     .heroPrincipal {
         height: 500px;
     }
@@ -43,6 +47,7 @@
     .textSecondary {
         font-size: 16px;
         line-height: 25px;
+        width: 80%;
     }
 
     .botonContactanosHero {
@@ -164,9 +169,8 @@
 
     }
 
-    .imageFranquicias {
-        transition: none;
-        -webkit-transition: none;
+    .imageFranquicias:hover {
+        opacity: 1;
     }
 
     .containerImage:hover {

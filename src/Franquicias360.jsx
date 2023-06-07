@@ -1,19 +1,20 @@
+// Imagen para el fondo principal
 import compu from './img/compu.svg'
-//
+// Iconos para la seccion de valores
 import colaboracion from "./img/colaboracion.svg";
 import innovacion from "./img/innovacion.svg";
 import comunidad from './img/comunidad.svg'
 import calidad from './img/calidad.svg'
 import etica from "./img/etica.svg";
-//
+// Iconos para la seccion de servicios
 import branding from './img/Icono_Branding.svg'
 import contenido from './img/Icono_Contenido.svg'
 import estrategias from './img/Icono_Estrategias.svg'
 import publicidad from './img/Icono_Publicidad.svg'
 import relaciones from './img/Icono_Relaciones.svg'
-//
+// Imagen de fondo para el texto principal
 import textBackground from './img/textBackground.png'
-//
+// Imagenes de Cruces
 import cruz from './img/cruz.png'
 import cruz2 from './img/cruz2.png'
 import cruz3 from './img/cruz3.png'
@@ -22,6 +23,7 @@ export const Principal = () => {
 
   return (
     <>
+      {/* Hero Principal whit eslogan */}
       <div className="heroPrincipal">
         <div className='containerHeroText'>
           <img className='cruz' src={cruz} alt="" />
@@ -37,15 +39,16 @@ export const Principal = () => {
         </div>
       </div>
 
+      {/* Commercial text */}
       <section className="containerTextSecondary">
         <h2 className="textSecondary">Nuestra misión es generar una <span className='textResalt'>plataforma de comunicación</span>  de valor para la comunidad de franquiciantes, brindando contenido relevante, oportunidades de visibilidad y espacios de interacción.</h2>
       </section>
 
+      {/* Section of valor in the company */}
       <section className="textSectionValores">
         <h4 id='nosotros' className='textSubtitle'>Nuestros valores</h4>
         <h3 className="textTitle">¿Por qué elegirnos?</h3>
       </section>
-
       <div className="containerValores">
 
         <div className="itemValores">
@@ -89,12 +92,12 @@ export const Principal = () => {
 
       </div >
 
+      {/* Sections of services in the company */}
       <section className="sectionTextServicios" id='servicios'>
         <h4 className='textSubtitle'>Servicios</h4>
         <h3 className="textTitle mb-5">Impulsa tu franquicia con nosotros</h3>
         <h5 className='textImpulsaFranquicia'>En Franquicias 360, ofrecemos una <span className='textResalt2'>amplia gama de servicios de marketing, publicidad y branding</span> para ayudar a los franquiciantes a potenciar su presencia en el mercado y alcanzar sus objetivos comerciales</h5>
       </section>
-
       <div className="containerServicios">
 
         <div className="itemServicios" >
@@ -146,10 +149,10 @@ export const Principal = () => {
 
       </div>
 
-
+      {/* Image intermediate for publicity */}
       <section className="imageContenedor">
         <p className="textContactanos">¡Aprovecha esta ventaja especial como franquiciante de Franquicias 360 y eleva tu presencia en el mundo de las franquicias con nosotros!</p>
-        <button className="botonContactanos"><a className='fontButtonContacto' href="#contacto">CONTACTANOS</a></button>
+        <button className="botonContactanos"><a className='fontButtonContacto' href='#contacto'>CONTACTANOS</a></button>
       </section>
 
     </>
