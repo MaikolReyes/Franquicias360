@@ -9,11 +9,7 @@
         height: auto;
     }
 
-    .navbar-nav {
-        margin-right: 50px;
-    }
-
-    .nav-link {
+    .nav__link {
         font-size: 18px;
     }
 
@@ -26,6 +22,21 @@
         width: 560px;
         line-height: 55px;
         padding-left: 50px;
+    }
+
+    .compuBanner {
+        width: 400px;
+        height: 330px;
+        margin-bottom: 150px;
+    }
+
+    .botonContactanosHero {
+        width: 200px;
+        height: 60px;
+    }
+
+    .containerTextSecondary {
+        margin: 0;
     }
 
     .imageBackground {
@@ -57,12 +68,6 @@
         margin-left: 110px;
     }
 
-    .compuBanner {
-        width: 400px;
-        height: 330px;
-        margin-left: 50px;
-        margin-bottom: 220px;
-    }
 
     .textTitle {
         font-size: 48px;
@@ -70,10 +75,6 @@
 
     .textSubtitle {
         font-size: 24px;
-    }
-
-    .textSecondary {
-        width: 1080px;
     }
 
     .containerValores {
@@ -100,12 +101,12 @@
     }
 
     .textImpulsaFranquicia {
-        width: 90%;
+        width: 70%;
     }
 
     .iconServicios {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .titleServicios {
@@ -118,9 +119,13 @@
         width: 200px;
     }
 
+    .itemServicios {
+        margin: 30px;
+    }
+
     .textServicios {
         font-size: 16px;
-        width: 90%;
+        width: 80%;
     }
 
     .imageContenedor {
@@ -128,7 +133,7 @@
     }
 
     .textContactanos {
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .containerImage {
@@ -148,6 +153,7 @@
     .textTitleFranquicias {
         font-size: 48px;
     }
+
 
     .sectionLinkedin {
         display: flex;

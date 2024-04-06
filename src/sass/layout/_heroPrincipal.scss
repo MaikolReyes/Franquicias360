@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-around;
     background-image: url(../img/hero-principal.png);
-    height: 105vh;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -32,8 +32,8 @@
 .imageBackground {
     position: absolute;
     width: 350px;
-    margin-left: 170px;
-    margin-top: 205px;
+    margin-left: 100px;
+    margin-top: 200px;
 }
 
 .heroText {
@@ -67,16 +67,13 @@
 }
 
 .compuBanner {
-    height: 600px;
-    width: 700px;
+    width: 100%;
     margin-bottom: 200px;
 }
 
 .botonContactanosHero {
     background-color: #35EE9A;
-    border-color: #35EE9A;
     width: 250px;
-    margin-top: 30px;
     margin-left: 100px;
     height: 65px;
     border-radius: 15px;

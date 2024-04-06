@@ -19,28 +19,25 @@
     text-align: center;
     width: 45vw;
     font-family: 'Lato', sans-serif;
+    margin: 20px 0 30px;
 }
 
 .containerServicios {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-content: center;
-    margin-top: 70px;
-    margin: auto;
-    width: 100%;
+    justify-items: center;
 }
 
 .itemServicios {
     display: flex;
-    margin: auto;
-    margin-top: 50px;
+    justify-content: center;
+    margin: 50px 0 0 0;
+    gap: 20px;
 }
 
 .iconServicios {
     width: 120px;
     height: 120px;
-    margin-right: 40px;
 }
 
 .titleServicios {

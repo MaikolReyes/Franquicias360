@@ -5,16 +5,14 @@
 .containerValores {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    margin-top: 80px;
-    width: 70%;
-    margin: auto;
+    justify-items: center;
+    margin: 80px 0 0 0;
+    width: 100%;
     gap: 50px;
 }
 
 .itemValores {
     display: flex;
-    width: 100%;
 }
 
 .iconValores {
