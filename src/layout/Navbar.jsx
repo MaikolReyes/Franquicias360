@@ -1,7 +1,9 @@
 import { useState } from 'react';
-import logo from '../img/logo.svg'
+import logo from '../assets/icons/logo.svg';
 
 export const Navbar = () => {
+
+
     const [active, setActive] = useState("nav__menu");
     const [icon, setIcon] = useState("nav__toggler");
     const navToggle = () => {
