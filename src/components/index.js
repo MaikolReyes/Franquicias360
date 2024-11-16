@@ -1,4 +1,4 @@
-export * from './itemsServicios'
-export * from './itemsValores'
-export * from './itemsLinkedln'
-export * from './itemsFranquicias'
+export * from './Navbar'
+export * from './Footer'
+export * from './Form'
+

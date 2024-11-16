@@ -1,4 +1,6 @@
-export * from './Footer'
-export * from './Navbar'
-export * from './Form'
+export * from './Hero'
+export * from './Services'
+export * from './Valores'
+export * from './Linkedin'
+export * from './Franquicias'
 
