@@ -1,4 +1,4 @@
-import { itemsFranquicias } from './resources'
+import { itemsFranquicias } from '../resources'
 
 
 export const Franquicias = () => {

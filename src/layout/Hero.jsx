@@ -1,10 +1,10 @@
-import compu from './assets/icons/compu.svg'
+import compu from '../assets/icons/compu.svg'
 // Imagen de fondo para el texto principal
-import textBackground from './assets/img/textBackground.png'
+import textBackground from '../assets/img/textBackground.png'
 // Imagenes de Cruces
-import cruz from './assets/img/cruz.png'
-import cruz2 from './assets/img/cruz2.png'
-import cruz3 from './assets/img/cruz3.png'
+import cruz from '../assets/img/cruz.png'
+import cruz2 from '../assets/img/cruz2.png'
+import cruz3 from '../assets/img/cruz3.png'
 
 export const Hero = () => {
     return (

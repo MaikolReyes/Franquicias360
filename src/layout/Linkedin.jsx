@@ -1,5 +1,5 @@
-import { itemsLinkedln } from './resources'
-import linkedin from './assets/img/linkedin1.png'
+import { itemsLinkedln } from '../resources'
+import linkedin from '../assets/img/linkedin1.png'
 
 export const Linkedin = () => {
     return (

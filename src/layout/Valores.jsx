@@ -1,4 +1,4 @@
-import { arrayValores } from './resources'
+import { arrayValores } from '../resources'
 
 
 export const Valores = () => {

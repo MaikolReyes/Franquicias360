@@ -1,4 +1,4 @@
-import { arrayServicios } from './resources'
+import { arrayServicios } from '../resources'
 
 export const Services = () => {
     return (
