@@ -21,7 +21,7 @@ export const Navbar = () => {
 
         <nav className="nav">
 
-            <a className='navbar__brand'><img src={logo} alt="" className='logo' /></a>
+            <img src={logo} alt="" className='logo' />
 
             <ul className={active}>
 

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://franquicias360.netlify.app/
